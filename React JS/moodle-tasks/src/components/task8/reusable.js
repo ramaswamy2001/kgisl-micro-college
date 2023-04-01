@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import myGif from './hewwo.gif';
 
 function Reuse(){
     return(
         <>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -14,11 +15,9 @@ function Reuse(){
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
     <li class="nav-item">
         <Link to="/" class="nav-link">Hello</Link>
-        
       </li>
       <li class="nav-item">
         <Link to="/card" class="nav-link">Card</Link>
-        
       </li>
       <li class="nav-item">
         <Link to="/super" class="nav-link">Super</Link>
