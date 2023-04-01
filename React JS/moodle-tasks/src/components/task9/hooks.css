@@ -1,0 +1,27 @@
+.hok1{
+   background-color: black;
+   height: 260px;
+   border-radius: 9%;
+    
+}
+.bt1{
+    background-color: aqua;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.bt2{
+    background-color: darkblue;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.bt3{
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.rs{
+    color: yellowgreen;
+}
+.rm{
+    color: gold;
+}

@@ -1,0 +1,27 @@
+.color{
+    background-color: blueviolet;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.centerdiv{
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+.cal{
+    border-radius: 50px;
+    background-color:rgb(166, 164, 164);
+    border:none;
+    outline: none;
+}
+.cal1{
+    border-radius: 50px;
+    background-color:rgb(166, 164, 164);
+    border:none;
+    outline: none;
+    padding:2px;
+}
+.btn{
+    border-radius: 50px;
+    width: 80px;
+}

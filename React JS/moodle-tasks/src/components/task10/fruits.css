@@ -1,0 +1,9 @@
+.bg-fc{
+    background-color: yellow;
+    height: 100vh;
+    display: grid;
+    place-items:center;
+}
+.mango{
+    height: 200px;
+}

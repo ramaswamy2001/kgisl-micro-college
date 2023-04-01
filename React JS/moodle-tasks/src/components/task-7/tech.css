@@ -1,0 +1,16 @@
+.firstCard {
+    border-radius: 25px;
+    border-top: 5px solid rgb(29, 217, 57);
+}
+.seccard {
+    border-radius: 25px;
+    border-top: 5px solid rgb(25, 108, 234);
+}
+.thirdcard {
+    border-radius: 25px;
+    border-top: 5px solid rgb(205, 248, 34);
+}
+.fourthcard {
+    border-radius: 25px;
+    border-top: 5px solid rgb(209, 37, 37);
+}
