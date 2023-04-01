@@ -1,0 +1,15 @@
+body{
+    background-image:url("https://wallpaperaccess.com/full/865178.jpg");
+}
+.contant{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+}
+.text{
+    color: chartreuse;
+    border-radius: 10px;
+    margin-left:40%;
+    margin-top:30%;
+}

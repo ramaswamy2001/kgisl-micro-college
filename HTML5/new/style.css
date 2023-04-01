@@ -1,0 +1,27 @@
+.head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: aqua;
+}
+#image{
+    margin-right:30%;
+    margin-left: 30%;
+    height: 500px;
+    width: 500px;
+}
+.tab{
+    margin-right: 30%;
+    margin-left: 50%;
+}
+#sub{
+    margin-right: 50%;
+    margin-left: 50%;
+}
+.my{
+    background-color: chocolate;
+    border: 0ch;
+}
+.web{
+    height: 200px;
+    width: 200px;
+}

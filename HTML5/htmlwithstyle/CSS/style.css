@@ -1,0 +1,12 @@
+.container{
+
+    background-color: rgb(127, 255, 142);
+    max-width: 500px;
+margin: 0 auto;
+border: 5px solid rgb(30, 28, 28);
+}
+#container{
+    max-width: 500px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

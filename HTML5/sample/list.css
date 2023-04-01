@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+ ul{
+list-style-type:none;
+
+height: 1500px;
+}
+
+ul li{
+color: white;
+display: inline-block;;
+}
+.ll{
+    margin-left:900px;
+}
+
