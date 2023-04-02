@@ -12,13 +12,15 @@ import "bootstrap/dist/js/bootstrap.bundle"
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Hook from './components/task9/hooks';
 import Fruit from './components/task10/fruits';
+import Feedback from './components/task11/feedback';
+import Thanks from './components/task11/thanks';
 function App() {
   return (
     <>
       <BrowserRouter>
           <Routes>
             <Route path='/' element={[<Reuse/>,<Hello/>]}/>
-            <Route path='/card' element={[<Reuse/>,<Card/>]}/>
+            <Route path='/Card' element={[<Reuse/>,<Card/>]}/>
             <Route path='/super' element={[<Reuse/>,<Super/>]}/>
             <Route path='/social' element={[<Reuse/>,<Social/>]}/>
             <Route path='/Noti' element={[<Reuse/>,<Noti/>]}/>
@@ -26,6 +28,9 @@ function App() {
             <Route path='/tech' element={[<Reuse/>,<Tech/>]}/>
             <Route path='/hooks' element={[<Reuse/>,<Hook/>]}/>
             <Route path='/fruits' element={[<Reuse/>,<Fruit/>]}/>
+            <Route path='/feedback' element={[<Reuse/>,<Feedback/>]}/>
+            <Route path='/tha' element={[<Reuse/>,<Thanks/>]}/>
+            
             
           </Routes>
 

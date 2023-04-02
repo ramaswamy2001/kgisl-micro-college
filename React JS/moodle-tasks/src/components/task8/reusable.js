@@ -40,6 +40,9 @@ function Reuse(){
       <li class="nav-item">
         <Link to="/fruits" class="nav-link">Fruit</Link>
       </li>
+      <li class="nav-item">
+        <Link to="/feedback" class="nav-link">Feedback</Link>
+      </li>
     </ul>
   </div>
 </nav>

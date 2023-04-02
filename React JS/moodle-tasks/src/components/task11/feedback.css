@@ -1,0 +1,19 @@
+.feedback{
+    background-color: pink;
+    height: 100vh;
+    display: grid;
+    place-items:center;
+}
+.rss{
+    background-color: whitesmoke;
+    height:300px;
+    display: grid;
+    place-items:center;
+    border-radius:20px;
+}
+.emoji{
+    font-size:50px;;
+}
+.hrt{
+    font-size:150px;;
+}
