@@ -15,12 +15,13 @@ import Fruit from './components/task10/fruits';
 import Feedback from './components/task11/feedback';
 import Thanks from './components/task11/thanks';
 import Datefun from './components/task12/date';
+import Port from './components/portfolio/portfolioo';
 function App() {
   return (
     <>
       <BrowserRouter>
           <Routes>
-            <Route path='/' element={[<Reuse/>,<Datefun/>]}/>
+            <Route path='/' element={[<Reuse/>,<Port/>]}/>
             <Route path='/Card' element={[<Reuse/>,<Card/>]}/>
             <Route path='/super' element={[<Reuse/>,<Super/>]}/>
             <Route path='/social' element={[<Reuse/>,<Social/>]}/>
