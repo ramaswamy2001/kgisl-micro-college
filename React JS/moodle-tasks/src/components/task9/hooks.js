@@ -8,7 +8,7 @@ function Hook(){
     // }
     return(
     <>
-     <div className="container-fluid ">
+     <div className="container-fluid " id="hooks">
         <div className="row">
       <div className="col-lg-4"></div>
         <div className="hok1 text-center col-lg-4">

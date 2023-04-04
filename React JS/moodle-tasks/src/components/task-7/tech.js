@@ -8,7 +8,7 @@ import im4 from "./image4.jpeg"
 function Tech(){
     return(
         <>
-            <div className="container-fluid">
+            <div className="container-fluid" id="tech">
                 <div className="row">
                    <div className="col-lg-2"></div>
                       <div className="col-lg-8">

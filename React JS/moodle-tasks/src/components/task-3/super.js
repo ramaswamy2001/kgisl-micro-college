@@ -6,7 +6,7 @@ import "./super.css";
 function Super(){
     return(
         <>
-            <div className="container-fluid super">
+            <div className="container-fluid super" id="super">
                 <div className="container">
                     <div className="row">
                         <div className="col-1 col-lg-2"></div>   

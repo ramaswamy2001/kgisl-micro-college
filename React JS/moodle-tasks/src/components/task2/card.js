@@ -8,7 +8,7 @@ function Card(){
     return(
         <>
         
-        <div className="container-fluid sup">
+        <div className="container-fluid sup" id="card">
 
         <h1 className="text-center">congratulations</h1>
      <div className="row">

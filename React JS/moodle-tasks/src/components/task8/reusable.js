@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Form, Link } from "react-router-dom";
 import myGif from './hewwo.gif';
+import {Link as Ra} from "react-scroll" 
 
 function Reuse(){
     return(
@@ -14,34 +15,34 @@ function Reuse(){
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
     <li class="nav-item">
-        <Link to="/" class="nav-link">Hello</Link>
+        <Ra to="/" class="nav-link">Hello</Ra>
       </li>
       <li class="nav-item">
-        <Link to="/card" class="nav-link">Card</Link>
+        <Ra to="card" activeClass="active" spy={true} smooth={true} offset={50} duration={500} class="nav-link">Card</Ra>
       </li>
       <li class="nav-item">
-        <Link to="/super" class="nav-link">Super</Link>
+        <Ra to="super"  activeClass="active" spy={true} smooth={true} offset={50} duration={500} class="nav-link">Super</Ra>
       </li>
       <li class="nav-item">
-        <Link to="/social" class="nav-link">Social</Link>
+        <Ra to="social"  activeClass="active" spy={true} smooth={true} offset={50} duration={500} class="nav-link">Social</Ra>
       </li>
       <li class="nav-item">
-        <Link to="/noti" class="nav-link">Noti</Link>
+        <Ra to="noti"  activeClass="active" spy={true} smooth={true} offset={50} duration={500} class="nav-link">Noti</Ra>
       </li>
       <li class="nav-item">
-        <Link to="/login" class="nav-link">Login</Link>
+        <Ra to="log"  activeClass="active" spy={true} smooth={true} offset={50} duration={500} class="nav-link">Login</Ra>
       </li>
       <li class="nav-item">
-        <Link to="/tech" class="nav-link">Tech</Link>
+        <Ra to="tech"  activeClass="active" spy={true} smooth={true} offset={50} duration={500} class="nav-link">Tech</Ra>
       </li>
       <li class="nav-item">
-        <Link to="/hooks" class="nav-link">Hook</Link>
+        <Ra to="hooks"  activeClass="active" spy={true} smooth={true} offset={50} duration={500} class="nav-link">Hook</Ra>
       </li>
       <li class="nav-item">
-        <Link to="/fruits" class="nav-link">Fruit</Link>
+        <Ra to="fru"  activeClass="active" spy={true} smooth={true} offset={50} duration={500} class="nav-link">Fruit</Ra>
       </li>
       <li class="nav-item">
-        <Link to="/feedback" class="nav-link">Feedback</Link>
+        <Ra to="rsd"  activeClass="active" spy={true} smooth={true} offset={50} duration={500} class="nav-link">Feedback</Ra>
       </li>
     </ul>
   </div>

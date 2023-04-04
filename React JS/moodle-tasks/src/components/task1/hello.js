@@ -5,7 +5,7 @@ function Hello(){
     return(
         <>
 
-            <h1>hello world</h1>
+            <h1 id="/">hello world</h1>
         </>
     );
 }

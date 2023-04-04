@@ -15,7 +15,7 @@ function Datefun(){
 
     return(
         <>
-           <label>Select Course Starting Date : </label>
+           <label id="dt">Select Course Starting Date : </label>
             <input type="date" id="coursDate"/>
             <input type="button" onClick={cal} value="calculate"/>
            <div id="divid">

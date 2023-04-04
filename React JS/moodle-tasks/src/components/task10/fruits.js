@@ -10,7 +10,7 @@ function Fruit(){
 
     return(
         <>
-          <div className="container-fluid bg-fc">
+          <div className="container-fluid bg-fc" id="fru">
             <div className="row">
             <div className="centerdiv container-fluid row rr">
                 <div className="col-lg-12 text-center">

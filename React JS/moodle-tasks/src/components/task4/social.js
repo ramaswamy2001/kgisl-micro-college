@@ -5,7 +5,7 @@ function Social(){
     return(
       <>
        
-        <div className="container-fluid social">
+        <div className="container-fluid social" id="social">
             <div className="row">
             <div className="col-lg-3"></div>
 

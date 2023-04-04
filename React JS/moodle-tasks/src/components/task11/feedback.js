@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Feedback(){
     return(
         <>
-        <div className="container-fluid feedback">
+        <div className="container-fluid feedback" id="rsd">
             <div className="row">
                <div className="col-lg-2"></div> 
                 <div className=" col-lg-8 text-center  rss">

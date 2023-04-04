@@ -6,7 +6,7 @@ import {faBell ,faCircleExclamation } from "@fortawesome/free-solid-svg-icons"
  export function Noti(){
     return(
         <>
-        <h1 className="text-center">Notifications</h1>
+        <h1 className="text-center" id="noti">Notifications</h1>
          <div className="continer-fluid">
             <div className="row">
                 <div className="col-lg-4"></div>

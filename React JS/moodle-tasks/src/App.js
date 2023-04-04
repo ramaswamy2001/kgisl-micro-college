@@ -38,7 +38,15 @@ function App() {
 
       </BrowserRouter>
       
-      
+
+       {/* <BrowserRouter>
+          <Routes>
+            <Route path='/' element={[<Reuse/>,<Hello/>,<Card/>,<Super/>,<Social/>,<Noti/>,<Login/>,<Tech/>,<Hook/>,<Fruit/>,<Feedback/>,<Thanks/>]}>
+
+            </Route>
+          </Routes>
+       </BrowserRouter>
+       */}
     </>
    
   );
