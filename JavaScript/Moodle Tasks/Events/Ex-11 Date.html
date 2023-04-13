@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+    <script>
+        function getDates()
+        {
+            var d = document.getElementById("curdate").value;
+            var c = document.getElementById("count").value;
+            var dates = new Date(d);
+            dates.setDate(dates.getDate()+parseInt(c));
+            addDate(dates);
+            dates.setDate(dates.getDate()-(parseInt(c)*2));
+            subDate(dates);
+        }
+        function addDate(dates)
+        {
+            var ad = document.getElementById("afterDate");
+            var sd = document.getElementById("beforDate");
+
+            if (dates.getDate() < 10)
+            {
+                var date = "0" + dates.getDate();
+            }
+            else
+            {
+                date = dates.getDate();
+            }
+
+            if (dates.getMonth() < 10)
+            {
+                var month = "0" + (dates.getMonth()+1);
+            }
+
+            var year = dates.getFullYear();
+
+            var add = year + "-" + month + "-" + date;
+
+            ad.value = add;
+        }
+        function subDate(dates)
+        {
+            var sd = document.getElementById("beforDate");
+
+            if (dates.getDate() < 10)
+            {
+                var date = "0" + dates.getDate();
+            }
+            else
+            {
+                date = dates.getDate();
+            }
+
+            if (dates.getMonth() < 10)
+            {
+                var month = "0" + (dates.getMonth()+1);
+            }
+
+            var year = dates.getFullYear();
+
+            var add = year + "-" + month + "-" + date;
+
+            sd.value = add;
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label for="curdate">Select a Date : </label>
+        <input type="date" name="curdate" id="curdate">
+        <label for="count">Enter the Days to be Added : </label>
+        <input type="number" name="count" id="count">
+        <input type="button" value="Calculate" onclick="getDates()"><br><br>
+        <label for="afterDate">After Date : </label>
+        <input type="date" name="afterDate" id="afterDate" disabled>
+        <label for="beforDate">Before Date : </label>
+        <input type="date" name="beforDate" id="beforDate" disabled><br>
+    </form>
+</body>
+</html>
