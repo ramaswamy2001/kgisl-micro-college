@@ -1,0 +1,12 @@
+.social{
+     background-image: url("./galaxy.jpg");
+     height: 100vh;
+     background-size: cover;
+     
+}
+.color1{
+    color: whitesmoke;
+}
+.buttons{
+    margin-top:250px;
+}
